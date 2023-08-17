@@ -37,8 +37,8 @@ gdjs.Main_32Menu_32Code.GDKUNINGObjects1= [];
 gdjs.Main_32Menu_32Code.GDKUNINGObjects2= [];
 gdjs.Main_32Menu_32Code.GDJINGGAObjects1= [];
 gdjs.Main_32Menu_32Code.GDJINGGAObjects2= [];
-gdjs.Main_32Menu_32Code.GDUNGGUObjects1= [];
-gdjs.Main_32Menu_32Code.GDUNGGUObjects2= [];
+gdjs.Main_32Menu_32Code.GDUNGUObjects1= [];
+gdjs.Main_32Menu_32Code.GDUNGUObjects2= [];
 gdjs.Main_32Menu_32Code.GDMERAHObjects1= [];
 gdjs.Main_32Menu_32Code.GDMERAHObjects2= [];
 gdjs.Main_32Menu_32Code.GDKawalanKeretaObjects1= [];
@@ -400,18 +400,18 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UNGGU"), gdjs.Main_32Menu_32Code.GDUNGGUObjects1);
+gdjs.copyArray(runtimeScene.getObjects("UNGU"), gdjs.Main_32Menu_32Code.GDUNGUObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Main_32Menu_32Code.GDUNGGUObjects1.length;i<l;++i) {
-    if ( gdjs.Main_32Menu_32Code.GDUNGGUObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.Main_32Menu_32Code.GDUNGUObjects1.length;i<l;++i) {
+    if ( gdjs.Main_32Menu_32Code.GDUNGUObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.Main_32Menu_32Code.GDUNGGUObjects1[k] = gdjs.Main_32Menu_32Code.GDUNGGUObjects1[i];
+        gdjs.Main_32Menu_32Code.GDUNGUObjects1[k] = gdjs.Main_32Menu_32Code.GDUNGUObjects1[i];
         ++k;
     }
 }
-gdjs.Main_32Menu_32Code.GDUNGGUObjects1.length = k;
+gdjs.Main_32Menu_32Code.GDUNGUObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "44753b4d3c538ac8b8af26578feab2d0ad562856703bbe64f0b7fc64d8003778_Click_04.aac", false, 100, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Ungu", false);
@@ -474,8 +474,8 @@ gdjs.Main_32Menu_32Code.GDKUNINGObjects1.length = 0;
 gdjs.Main_32Menu_32Code.GDKUNINGObjects2.length = 0;
 gdjs.Main_32Menu_32Code.GDJINGGAObjects1.length = 0;
 gdjs.Main_32Menu_32Code.GDJINGGAObjects2.length = 0;
-gdjs.Main_32Menu_32Code.GDUNGGUObjects1.length = 0;
-gdjs.Main_32Menu_32Code.GDUNGGUObjects2.length = 0;
+gdjs.Main_32Menu_32Code.GDUNGUObjects1.length = 0;
+gdjs.Main_32Menu_32Code.GDUNGUObjects2.length = 0;
 gdjs.Main_32Menu_32Code.GDMERAHObjects1.length = 0;
 gdjs.Main_32Menu_32Code.GDMERAHObjects2.length = 0;
 gdjs.Main_32Menu_32Code.GDKawalanKeretaObjects1.length = 0;

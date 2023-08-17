@@ -1064,6 +1064,13 @@ let isConditionTrue_0 = false;
 
 {
 
+
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("upbutton"), gdjs.JinggaCode.GDupbuttonObjects1);
 
 let isConditionTrue_0 = false;
@@ -1082,7 +1089,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObject
     gdjs.JinggaCode.GDPlayerObjects1[i].getBehavior("TopDownMovement").simulateUpKey();
 }
 }{for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(-(5), 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(-(5), 75, runtimeScene);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "free-sound-1674849985.mp3", 4, false, 200, 1);
 }}
@@ -1110,7 +1117,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObject
     gdjs.JinggaCode.GDPlayerObjects1[i].getBehavior("TopDownMovement").simulateDownKey();
 }
 }{for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(5, 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(5, 75, runtimeScene);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "free-sound-1674849985.mp3", 4, false, 200, 1);
 }}
@@ -1147,16 +1154,9 @@ gdjs.JinggaCode.GDdownbuttonObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObjects1);
 {for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(0, 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(0, 75, runtimeScene);
 }
 }}
-
-}
-
-
-{
-
-
 
 }
 
@@ -1173,7 +1173,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObject
     gdjs.JinggaCode.GDPlayerObjects1[i].getBehavior("TopDownMovement").simulateUpKey();
 }
 }{for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(-(5), 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(-(5), 75, runtimeScene);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "free-sound-1674849985.mp3", 4, false, 200, 1);
 }}
@@ -1193,7 +1193,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObject
     gdjs.JinggaCode.GDPlayerObjects1[i].getBehavior("TopDownMovement").simulateDownKey();
 }
 }{for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(5, 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(5, 75, runtimeScene);
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "free-sound-1674849985.mp3", 4, false, 200, 1);
 }}
@@ -1214,7 +1214,7 @@ isConditionTrue_0 = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "s"));
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.JinggaCode.GDPlayerObjects1);
 {for(var i = 0, len = gdjs.JinggaCode.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(0, 60, runtimeScene);
+    gdjs.JinggaCode.GDPlayerObjects1[i].rotateTowardAngle(0, 75, runtimeScene);
 }
 }}
 
